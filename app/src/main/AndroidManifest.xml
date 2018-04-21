@@ -20,7 +20,8 @@
         <activity android:name=".PersonalDataActivity" />
         <activity android:name=".Features.StatisticsActivity" />
         <activity android:name=".Features.TipOfTheDayActivity" />
-        <activity android:name=".Features.TodaysTaskActivity"></activity>
+        <activity android:name=".Features.TodaysTaskActivity" />
+        <activity android:name=".Features.Goals"></activity>
     </application>
 
 </manifest>
