@@ -1,14 +1,11 @@
 package com.example.zdroa.trainerapp;
 
-import android.content.Intent;
-import android.content.SharedPreferences;
-import android.preference.PreferenceManager;
+import android.arch.persistence.room.Room;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
-import android.widget.TextView;
 
-import com.example.zdroa.trainerapp.Features.TodaysTaskActivity;
+import com.example.zdroa.trainerapp.Database.AppDatabase;
+import com.example.zdroa.trainerapp.Database.UsersAsync;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,7 +14,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Intent intent = new Intent(this, TodaysTaskActivity.class);
-        startActivity(intent);
+//        Intent intent = new Intent(this, TodaysTaskActivity.class);
+//        startActivity(intent);
+
+//        AppDatabase db = Room.databaseBuilder(getApplicationContext(),
+//                AppDatabase.class, "AppDatabase").build();
+
+//        UsersAsync usersAsync = new UsersAsync(db);
+//        usersAsync.execute();
+
+
     }
 }
