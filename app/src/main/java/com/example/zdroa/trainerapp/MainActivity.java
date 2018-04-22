@@ -14,10 +14,18 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        SharedPreferences sharedPref;
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Intent intent = new Intent(this, TodaysTaskActivity.class);
-        startActivity(intent);
+         sharedPref = PreferenceManager.getDefaultSharedPreferences(this);
+         Boolean isInitialized = sharedPref.getBoolean("initialized",false);
+          if(!isInitialized)
+          {
+            Intent intent = new Intent(this, PersonalDataActivity.class);
+            startActivity(intent);
+          }
     }
 }
