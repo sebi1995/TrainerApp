@@ -19,6 +19,8 @@ public class Plans extends AppCompatActivity {
 
         plans = findViewById(R.id.TrainingPlanWindow);
 
+        generatePlans();
+
     }
 
     public void previousScreen(View V){
@@ -28,10 +30,11 @@ public class Plans extends AppCompatActivity {
 
     public void generatePlans(){
         Random random = new Random();
-        for (int i = 0; i<=5; i++){
+        for (int i = 0; i < 5; i++){
             LinearLayout l = (LinearLayout) getLayoutInflater().inflate(R.layout.trainingentry,null);
             TextView planNumber = l.findViewById(R.id.PlanNumber);
             plans.addView(l);
+            planNumber.setText("Plan " + (1 + i));
         }
 
     }
