@@ -16,7 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Goals" />
+        <activity android:name=".GoalsActivity" />
         <activity android:name=".PersonalDataActivity" />
         <activity android:name=".Features.StatisticsActivity" />
         <activity android:name=".Features.TipOfTheDayActivity" />
