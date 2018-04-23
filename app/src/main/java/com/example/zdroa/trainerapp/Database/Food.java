@@ -15,6 +15,9 @@ public class Food {
     @ColumnInfo(name = "food_name")
     private String food_name;
 
+
+    @ColumnInfo(name = "food_calories")
+    private Integer food_calories;
     //setters and getters
     //
     /////////////////////////
