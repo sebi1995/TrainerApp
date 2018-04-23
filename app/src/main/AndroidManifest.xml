@@ -12,6 +12,7 @@
         <activity android:name=".MainActivity">
 
         </activity>
+        <activity android:name=".GoalsActivity" />
         <activity android:name=".PersonalDataActivity" />
         <activity android:name=".Features.StatisticsActivity" />
         <activity android:name=".Features.TipOfTheDayActivity" />
