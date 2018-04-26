@@ -10,20 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
-
-        </activity>
-        <activity android:name=".GoalsActivity" />
-        <activity android:name=".PersonalDataActivity" />
-        <activity android:name=".Features.StatisticsActivity" />
-        <activity android:name=".Features.TipOfTheDayActivity" />
-        <activity android:name=".Features.TodaysTaskActivity" />
-        <activity android:name=".Features.Goals">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".GoalsActivity" />
+        <activity android:name=".PersonalDataActivity" />
+        <activity android:name=".Features.StatisticsActivity" />
+        <activity android:name=".Features.TipOfTheDayActivity" />
+        <activity android:name=".Features.TodaysTaskActivity" />
+        <activity android:name=".Features.Goals"></activity>
+        <activity android:name=".Features.Plans"></activity>
     </application>
 
 </manifest>
