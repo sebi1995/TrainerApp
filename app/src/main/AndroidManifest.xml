@@ -21,8 +21,12 @@
         <activity android:name=".Features.StatisticsActivity" />
         <activity android:name=".Features.TipOfTheDayActivity" />
         <activity android:name=".Features.TodaysTaskActivity" />
-        <activity android:name=".Features.Goals"></activity>
-        <activity android:name=".Features.Plans"></activity>
+        <activity android:name=".Features.GoalsActivity" />
+        <activity android:name=".Features.PlansActivity" />
+        <activity android:name=".Admin.SeeFoodDataBaseActivity" />
+        <activity android:name=".Admin.AddFoodToDatabaseActivity" />
+        <activity android:name=".Features.Goals.IndividualGoalActivity" />
+        <activity android:name=".Features.Goals.NewGoalActivity"></activity>
     </application>
 
 </manifest>
